@@ -10,10 +10,10 @@ alumnos = [
 ]
 
 profesores = [
-    {"nombre": "M.C.C. Daniel Cantón ", "numeroEmpleado": "P001"},
-    {"nombre": "Lic. Laura Martínez", "numeroEmpleado": "P002"},
-    {"nombre": "Ing. Roberto Díaz", "numeroEmpleado": "P003"},
-    {"nombre": "Lic. Patricia Pérez", "numeroEmpleado": "P004"}
+    {"nombre": "M.C.C. Daniel Canton ", "numeroEmpleado": "P001"},
+    {"nombre": "Lic. Carolina Martinez", "numeroEmpleado": "P002"},
+    {"nombre": "Ing. Roberto Diaz", "numeroEmpleado": "P003"},
+    {"nombre": "Lic. Patricia Perez", "numeroEmpleado": "P004"}
 ]
 
 @app.route('/alumnos', methods=['GET'])
