@@ -18,11 +18,11 @@ profesores = [
 
 @app.route('/alumnos', methods=['GET'])
 def get_alumnos():
-    return jsonify(alumnos)
+    return jsonify(alumnos), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
 @app.route('/profesores', methods=['GET'])
 def get_profesores():
-    return jsonify(profesores)
+    return jsonify(profesores), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
